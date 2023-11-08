@@ -1,0 +1,42 @@
+the first sum
+n:1 m:1 sum:0.00
+n:1 m:2 sum:0.11
+n:1 m:3 sum:0.25
+n:1 m:4 sum:0.36
+n:1 m:5 sum:0.44
+n:2 m:1 sum:0.11
+n:2 m:2 sum:0.00
+n:2 m:3 sum:0.04
+n:2 m:4 sum:0.11
+n:2 m:5 sum:0.18
+n:3 m:1 sum:0.25
+n:3 m:2 sum:0.04
+n:3 m:3 sum:0.00
+n:3 m:4 sum:0.02
+n:3 m:5 sum:0.06
+n:4 m:1 sum:0.36
+n:4 m:2 sum:0.11
+n:4 m:3 sum:0.02
+n:4 m:4 sum:0.00
+n:4 m:5 sum:0.01
+n:5 m:1 sum:0.44
+n:5 m:2 sum:0.18
+n:5 m:3 sum:0.06
+n:5 m:4 sum:0.01
+n:5 m:5 sum:0.00
+final Sum is: 0.0
+done
+the second sum
+n:1 m:2 sum:0.11
+n:1 m:3 sum:0.25
+n:1 m:4 sum:0.36
+n:1 m:5 sum:0.44
+n:2 m:3 sum:0.04
+n:2 m:4 sum:0.11
+n:2 m:5 sum:0.18
+n:3 m:4 sum:0.02
+n:3 m:5 sum:0.06
+n:4 m:5 sum:0.01
+final Sum is: 0.012345679012345678
+done
+The total number of loops in the first and second sum are respectively : 25 and 10 

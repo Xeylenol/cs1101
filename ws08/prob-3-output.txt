@@ -1,0 +1,5 @@
+mb23ms121@iiserk43:~/cs1101/ws08$ python3 prob-3.py
+a = 3
+b = 4
+c = 5
+The triangle is possible

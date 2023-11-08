@@ -1,0 +1,5 @@
+-0.2876820724517809
+The number of terms required=  1
+The Exact Value of ln(0.75)=  -0.2876820724517809
+The Computed Value of ln(0.75)=  -0.28125
+their absolute difference is =  0.006432072451780901

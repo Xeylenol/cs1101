@@ -1,0 +1,16 @@
+mb23ms121@iiserk41:~$ python3
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x,y = 1,2
+>>> def f(x):
+...     y = x**2
+...     print(x,y)
+...     return y
+... 
+>>> f(4)
+4 16
+16
+>>>#here local value of x and y is 4 and 16 respectively.
+>>> print(x,y)
+1 2
+>>>#The global value of x and y is 1 and 2 respectively. 

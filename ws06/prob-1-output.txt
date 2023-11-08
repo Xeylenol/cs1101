@@ -1,0 +1,4 @@
+The number of terms required=  99
+The Exact Value of pi=  3.141592653589793
+The Computed Value of pi=  3.1315929035585537
+their absolute difference is =  0.00999975003123943

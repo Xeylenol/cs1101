@@ -1,0 +1,134 @@
+
+
+*******************************************************************************
+Wed Nov  8 12:33:53 2023
+
+
+FIT:    data read from 'xfx_sin.dat' u 1:2
+        format = x:z
+        #datapoints = 200
+        residuals are weighted equally (unit weight)
+
+function used for fitting: g(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Wed Nov  8 12:34:02 2023
+
+
+FIT:    data read from 'xfx_sin.dat' u 1:2
+        format = x:z
+        #datapoints = 200
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x) = sin(2*pi*w*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   w            
+   0 1.9900000000e+02   0.00e+00  5.19e+01    1.000000e+00
+   6 1.9889079897e+02   0.00e+00  5.19e+08    1.002649e+00
+
+After 6 iterations the fit converged.
+final sum of squares of residuals : 198.891
+rel. change during last iteration : 0
+
+degrees of freedom    (FIT_NDF)                        : 199
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.999726
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.999451
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+w               = 1.00265          +/- 0.001362     (0.1359%)
+
+
+*******************************************************************************
+Wed Nov  8 12:38:25 2023
+
+
+FIT:    data read from 'xfx_sin.dat'
+        format = z
+        #datapoints = 200
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=sin(2*pi*omega*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   omega        
+   0 1.9900000000e+02   0.00e+00  4.16e+01    8.000000e-01
+   9 1.9870884196e+02  -1.41e-02  4.16e+01    8.039726e-01
+
+After 9 iterations the fit converged.
+final sum of squares of residuals : 198.709
+rel. change during last iteration : -1.40864e-07
+
+degrees of freedom    (FIT_NDF)                        : 199
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.999268
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.998537
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+omega           = 0.803973         +/- 0.001361     (0.1692%)
+
+
+*******************************************************************************
+Wed Nov  8 12:38:42 2023
+
+
+FIT:    data read from 'xfx_sin.dat'
+        format = z
+        #datapoints = 200
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=sin(2*pi*omega*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   omega        
+   0 1.4296799668e+02   0.00e+00  4.42e+00    8.000000e-02
+   7 0.0000000000e+00  -inf       4.42e-07    1.000000e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.50932e-23
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+omega           = 0.1            
+
+
+*******************************************************************************
+Wed Nov  8 12:48:01 2023
+
+
+FIT:    data read from 'xfx_sin.dat'
+        format = z
+        #datapoints = 200
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=sin(2*pi*omega*x)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   omega        
+   0 1.4296799668e+02   0.00e+00  4.42e+00    8.000000e-02
+   7 0.0000000000e+00  -inf       4.42e-07    1.000000e-01
+
+After 7 iterations the fit converged.
+final sum of squares of residuals : 0
+abs. change during last iteration : -4.50932e-23
+
+
+Hmmmm.... Sum of squared residuals is zero. Can't compute errors.
+
+Final set of parameters 
+======================= 
+
+omega           = 0.1            

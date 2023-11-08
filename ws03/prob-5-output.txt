@@ -1,0 +1,2 @@
+The Largest element: 9 and the index is:  6
+The smallest element: 0, and the index is: 0

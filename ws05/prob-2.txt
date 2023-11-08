@@ -1,0 +1,32 @@
+mb23ms121@iiserk41:~$ python3
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> #1
+>>> def f(x,y):
+...     z = x/y
+...     return z
+... 
+>>> #2
+>>> f(7,3)
+2.3333333333333335
+>>> f(9.0,-2.0)
+-4.5
+>>> #3
+>>> def fun(x):
+...     j = x//2
+...     h = x%2
+...     return j,h
+... 
+>>> #4
+>>> fun(8)
+(4, 0)
+>>> fun(4+5)
+(4, 1)
+>>> #5
+>>> a,b = fun(13)
+>>> a
+6
+>>> b
+1
+>>> 
+

@@ -1,0 +1,23 @@
+mb23ms121@iiserk43:~/cs1101/ws03$ python3
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x = "The quick brown fox jumps over the lazy dog"
+>>> print("fox" in x)
+True
+>>> print(x[-1::-1])
+god yzal eht revo spmuj xof nworb kciuq ehT
+>>> print(x[2::3])
+eukrnojporhlyo
+>>> print(x[4::4])
+qkofjsehad
+>>> print(len(x))
+43
+>>> print(x[-1::-2])
+gdya h eosmjxfnobkiqeT
+>>> y= []
+>>> z = []
+>>> y,z = x[:4],x[len(x)-3:len(x)]
+>>> print(y+z)
+The dog
+>>> print(y*10)
+The The The The The The The The The The 

@@ -1,0 +1,22 @@
+mb23ms121@iiserk43:~/cs1101/ws03$ python3
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> x = 1.2
+>>> y = 12
+>>> z = 24
+>>>#To check the type use type(), to verify the output are float
+>>> print("x/y= %f," %(x/y), type(x/y))
+x/y= 0.100000, <class 'float'>
+>>> print("y/z = %f" %(y/z), type(y/z),"z/x = %f" %(z/x), type(z/x))
+y/z = 0.500000 <class 'float'> z/x = 20.000000 <class 'float'>
+>>> print(3**6)
+729
+>>> print ((2.0**4) == (16.0))
+True
+>>> print(y+z)
+36
+>>> print(str(y)+str(z))
+1224
+>>> print(y+z == str(y)+str(z))
+False
+

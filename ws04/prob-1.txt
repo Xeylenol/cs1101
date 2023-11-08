@@ -1,0 +1,41 @@
+#Task1 
+
+
+mb23ms121@iiserk42:~$ python3
+Python 3.10.12 (main, Jun 11 2023, 05:26:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a,b = 0.0,(3//5)
+>>> a
+0.0
+>>> b
+0
+>>> a == b
+True
+>>> a is b
+False
+>>> # This occours because despite having the same neumerical value which is verified by "==" they are of different data type where a is a float b is a integer.
+>>> 
+>>> id(a)
+139749947860784
+>>> id(b)
+139749946818736
+>>> 
+>>> 
+>>> a=0; b=20; k=0
+>>> while a < b:
+...     b = b- 3
+...     k+=1
+... 
+>>> print(k-1)
+6
+>>> #the final printed value of k shows the number of times the while loop was cycled through.
+>>> 
+>>>
+>>> #divisibility
+>>> 8%4==0
+True
+>>> 5%2==0
+False
+
+
+

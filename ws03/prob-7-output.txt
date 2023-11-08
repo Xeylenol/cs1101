@@ -1,0 +1,3 @@
+The Largest element: 9 and the index is:  3
+The smallest element: -4, and the index is: 4
+The sorted list is  [-4, -3, -2, -1, 3, 7, 8, 9, 9]
