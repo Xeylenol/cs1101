@@ -8,7 +8,7 @@ fx = {}
 d = (5-(-5))/99
 d1 = -5
 val = []
-for i in range(100):
+for _ in range(100): #no need to use the variable i in the loop
 	y = exp((-d1**2)/b)
 	val.append(y)
 	fx[d1] = y
@@ -20,14 +20,7 @@ for i in range(100):
 nval = val
 nval.sort()
 fmax = nval[-1]
-#print(fmax)
-
-#find the value(s) of x* for which f(x*) ≈ 1/2 fmax.
-
-dif = []
-for i in nval:
-	dif.append(abs(i-(fmax/2)))
-	
+dif = [abs(i-(fmax/2)) for i in nval]
 dif_min = min(dif)
 index_min = dif.index(dif_min)
 

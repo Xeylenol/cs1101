@@ -3,19 +3,19 @@ Name = []
 Marks = []
 name_mark = {} #dictionary for key value pair of marks and names
 
-#open the file 
+#open the file
 with open('Grades1.dat') as f:
-    for line in f.readlines():
+    for line in f:
         # Split line using tab as delimeter
         name,mark = line.split('\t')
         Name.append(name)
         Marks.append(int(mark))
         name_mark[int(mark)] = name
-        
+
 x = Marks
 #sorting by insertion sort
 n = len(x) 
-	
+
 for i in range(1, n): 
 	key = x[i] 
 	j = i-1
