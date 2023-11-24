@@ -3,9 +3,9 @@ Name = []
 Marks = []
 name_mark = {} #dictionary for key value pair of marks and names
 
-#open the file 
+#open the file
 with open('wsP\prob5\Grades2.dat') as f:
-    for line in f.readlines():
+    for line in f:
         # Split line using tab as delimeter
         name,mark = line.split('\t')
         Name.append(name)
